@@ -1,2 +1,3 @@
 # rmoss_interfaces
-ROS interfaces(.msg, .srv, .action) used in RoboMaster OSS project
+
+ROS2 interfaces (.msg, .srv, .action) used in the RMOSS (RoboMaster OSS Projects)
