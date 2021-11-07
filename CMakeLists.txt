@@ -21,9 +21,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GimbalCmd.msg"
   "msg/ShootCmd.msg"
   "msg/ChassisCmd.msg"
+  "srv/SetColor.srv"
   "srv/SetMode.srv"
   "srv/GetMode.srv"
   "srv/GetCameraInfo.srv"
+  "srv/GetTaskStatus.srv"
+  "srv/ControlTask.srv"
 DEPENDENCIES
   builtin_interfaces
   std_msgs
