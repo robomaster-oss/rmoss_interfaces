@@ -1,14 +1,15 @@
 # gimbal module data,include pitch and yaw.
 # id of task
 uint8 tid
-uint8 type
+
+# constants for control type
+uint8 ABSOLUTE_ANGLE = 1
+uint8 RELATIVE_ANGLE = 2
+uint8 VELOCITY = 3
+
+uint8 yaw_type
+uint8 pitch_type
 
 # control info
 Gimbal position
 Gimbal velocity
-
-# scan control info
-Gimbal scan_min_position
-Gimbal scan_max_position
-Gimbal scan_velocity
-
