@@ -1,8 +1,8 @@
-#shooter module data.
+# cmd msg for shooter
 # id of task
 uint8 tid
 uint8 type
 
-#data
+# control data
 uint8 projectile_num
 uint8 projectile_velocity
