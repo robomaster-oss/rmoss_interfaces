@@ -7,8 +7,8 @@ uint8 ABSOLUTE_ANGLE = 1
 uint8 RELATIVE_ANGLE = 2
 uint8 VELOCITY = 3
 
-uint8 yaw_type
-uint8 pitch_type
+uint8 yaw_type 1
+uint8 pitch_type 1
 
 # control info
 Gimbal position
