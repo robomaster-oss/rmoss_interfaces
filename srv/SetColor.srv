@@ -5,4 +5,4 @@ uint8 BLUE = 2
 uint8 color
 ---
 # response
-bool successs
+bool success
