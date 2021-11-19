@@ -18,7 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/referee/RefereeCmd.msg"
-  "msg/referee/RefereeRobotStatus.msg"
+  "msg/referee/RobotStatus.msg"
   "msg/Gimbal.msg"
   "msg/GimbalCmd.msg"
   "msg/ShootCmd.msg"

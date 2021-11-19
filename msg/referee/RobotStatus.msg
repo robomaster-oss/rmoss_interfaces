@@ -1,5 +1,6 @@
 # msg for robot status in referee system
 uint8 id
+uint8 level
 string name
 int32 remain_hp
 int32 max_hp
