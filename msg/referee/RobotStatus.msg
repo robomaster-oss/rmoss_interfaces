@@ -8,3 +8,4 @@ int32 total_projectiles
 int32 used_projectiles
 # only for referee system
 int32 hit_projectiles
+geometry_msgs/Transform gt_tf
