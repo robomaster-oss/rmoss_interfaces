@@ -5,4 +5,4 @@ uint8 type
 
 # control data
 uint8 projectile_num
-uint8 projectile_velocity
+float32 projectile_velocity 0
