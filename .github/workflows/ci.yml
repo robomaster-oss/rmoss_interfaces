@@ -1,4 +1,4 @@
-name: Build (Humble)
+name: Build and Test
 on:
   push:
     branches: [ humble ]
