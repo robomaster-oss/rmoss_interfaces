@@ -1,7 +1,7 @@
 # rmoss_interfaces
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build (Galactic)](https://github.com/robomaster-oss/rmoss_interfaces/actions/workflows/ci.yml/badge.svg?branch=galactic)](https://github.com/robomaster-oss/rmoss_interfaces/actions/workflows/ci.yml)
+[![Build and Test](https://github.com/robomaster-oss/rmoss_interfaces/actions/workflows/ci.yml/badge.svg?branch=galactic)](https://github.com/robomaster-oss/rmoss_interfaces/actions/workflows/ci.yml)
 
 ROS2 interfaces (.msg, .srv, .action) used in the RMOSS (RoboMaster OSS Projects)
 
