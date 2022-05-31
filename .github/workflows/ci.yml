@@ -1,12 +1,14 @@
 name: Build (Humble)
 on:
   push:
-    branches: [ main ]
+    branches: [ humble ]
   pull_request:
-    branches: [ main ]
+    branches: [ humble ]
 jobs:
   build-and-test:
-    runs-on: ubuntu:jammy
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:jammy
     steps:
       - name: Check out
         uses: actions/checkout@v2.3.4
