@@ -1,22 +1,24 @@
-name: Build (Galactic)
+name: Build and Test
 on:
   push:
-    branches: [ main ]
+    branches: [ humble ]
   pull_request:
-    branches: [ main ]
+    branches: [ humble ]
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    container:
+      image: ubuntu:jammy
     steps:
       - name: Check out
         uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0
       - name: Setup ROS 2
-        uses: ros-tooling/setup-ros@v0.2
+        uses: ros-tooling/setup-ros@v0.3
         with:
-          required-ros-distributions: galactic
+          required-ros-distributions: humble
       - name: Build rmoss_interfaces
         uses: ros-tooling/action-ros-ci@v0.2
         with:
-          target-ros2-distro: galactic
+          target-ros2-distro: humble
