@@ -1,9 +1,9 @@
 name: Build (Galactic)
 on:
   push:
-    branches: [ main ]
+    branches: [ galactic ]
   pull_request:
-    branches: [ main ]
+    branches: [ galactic ]
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
